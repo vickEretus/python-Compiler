@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css or your preferred CSS file */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+}
+
+nav {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+button{
+  float: left;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-top: 10px; 
+  font-size: 16px; 
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration:none;
+}
+
+.page-content {
+  margin-top: 20px;
+}

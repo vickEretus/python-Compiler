@@ -1,4 +1,4 @@
-.language {
+/* .language {
   display: inline;
 }
 .heading {
@@ -30,4 +30,71 @@
 }
 .language {
   width: 150px;
+} */
+
+.language {
+  display: inline;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+#output {
+  width: 45%; /* Adjusted width */
+  margin-right: 50%; /* Added margin to the right */
+  background: #cccccc52;
+  height: 50vh;
+  top: 7.6%;
+  margin-top: 15px; 
+  font-size: 15px;
+  resize: vertical;
+}
+
+#input {
+  background: #cccccc52;
+  width: 45%;
+  height: 19vh;
+  resize: vertical;
+  font-size: 15px;
+}
+
+#source {
+  background: #cccccc52;
+  width: 50%;
+  height: 75%;
+  position: fixed;
+  top: 17.25%;
+  font-size: 15px;
+  right: 1%;
+  resize: none;
+}
+
+.language {
+  width: 150px;
+}
+.outputTitle{
+  float:right;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-top: 10px; 
+  font-size: 16px; 
+
+}
+
+.intputTitle{
+  float:left;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-top: 10px; 
+  font-size: 16px; 
+
+}
+
+button{
+  float: left;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-top: 10px; 
+  font-size: 16px; 
 }
